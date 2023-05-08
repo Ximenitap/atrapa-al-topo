@@ -10,3 +10,16 @@ h2 {
   border-style: double;
   border-color: cornflowerblue;
 }
+.cuadrado {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  widht: 320px;
+  height: 320;
+  margin: 10px auto;
+}
+.topo {
+  background-image: url("topo.jpg");
+  background-size: cover;
+}
